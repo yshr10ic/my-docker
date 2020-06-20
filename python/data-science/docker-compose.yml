@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  jupyterlab:
+    container_name: "ds_jupyterlab"
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - /Users/yshr10ic/Work/JupyterLab:/Notebooks
+
