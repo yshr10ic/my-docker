@@ -6,7 +6,7 @@ Basic python environment.
 
 ```
 $ cd python/base
-$ docker build -t <image name> .
+$ docker build -t <image name> .
 $ docker run -it --name <container name> <image name>
 ```
 
