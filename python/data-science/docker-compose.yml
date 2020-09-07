@@ -7,5 +7,5 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - /Users/yshr10ic/Work/JupyterLab:/Notebooks
+      - ./:/opt
 
