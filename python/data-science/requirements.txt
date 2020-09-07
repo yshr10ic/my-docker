@@ -1,3 +1,4 @@
+japanize-matplotlib
 jupyterlab
 matplotlib
 numpy
