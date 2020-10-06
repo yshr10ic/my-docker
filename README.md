@@ -16,3 +16,12 @@ Data science environment.
 $ cd python/data-science
 $ docker-compose up -d
 ```
+
+## C++
+
+C++ environment.
+
+```
+$ cd cpp
+$ docker-compose up -d
+```
