@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  cppdev:
+    container_name: "cppdev"
+    build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - /Users/yshr10ic/Work/Docker/src/cppdev:/opt
