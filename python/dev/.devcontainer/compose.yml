@@ -1,0 +1,10 @@
+services:
+  python:
+    image: dev-python:1.0
+    build: ./python
+    container_name: "dev-python"
+    stdin_open: true
+    tty: true
+    working_dir: "/tmp/work"
+    volumes:
+      - ../python:/tmp/work
